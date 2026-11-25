@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Spark temporary files
+spark-warehouse/
+metastore_db/
+derby.log/
+
+# Sensitive configuration
+.env
+.env.*
+# Project datasets
+datasets/
+
+# Spark output
+spark-warehouse/
+metastore_db/
+# Logs
+logs/
+*.log
